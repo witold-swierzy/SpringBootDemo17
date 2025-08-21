@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://oradev:WELcome__1234@G5E60EBADF0D95A-WSATP.adb.eu-frankfurt-1.oraclecloudapps.com:27017/oradev?authMechanism=PLAIN&authSource=$external&ssl=true&retryWrites=false&loadBalanced=true
-      database: oradev
+      uri: ${DB_URI}
+      database: ${DB_NAME}
