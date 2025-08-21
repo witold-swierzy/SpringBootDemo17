@@ -84,7 +84,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--- ws 21 08 2025 -->
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -105,7 +104,6 @@
             <version>2.0.17</version>
             <scope>test</scope>
         </dependency>
-        <!-- ws 21 08 2025 -->
     </dependencies>
     <exclusions>
         <exclusion>
